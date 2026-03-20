@@ -9,15 +9,36 @@ typedef struct _point {
 // define the Rectangle structure here
 
 typedef struct _rectangle {
-    // fields
+    Point p; // bottom left corner
+    float width;
+    float height;
 } Rectangle;
 
 // function headers - implement in shapes.c
 
-Rectangle makeRectangle( Point p, float width, float height );
-float area( Rectangle r );
-void shiftRectangle( Rectangle *r, Point dp );
-void scaleRectangle( Rectangle *r, float scale );
+Rectangle makeRectangle( Point p, float width, float height ){
+    Rectangle r;
+
+    return r;
+}
+
+float area( Rectangle r ) {
+    float a = 0.0;
+
+    return a;
+}
+
+void shiftRectangle( Rectangle *r, Point dp ) {
+
+    
+    return;
+}
+
+void scaleRectangle( Rectangle *r, float scale ) {
+
+    return;
+}
+
 
 //Point *corners( Rectangle r );
 //Rectangle rotate90( Rectangle r );
